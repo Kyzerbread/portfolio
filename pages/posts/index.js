@@ -15,8 +15,8 @@ export default function Index({ allPosts }) {
           <title>Blogs</title>
         </Head>
         <Container>
-        <h2 className="mb-8 text-6xl md:text-7xl font-bold tracking-tighter leading-tight">
-          Recent Blogs
+        <h2 className="mb-8 text-4xl md:text-7xl font-bold tracking-tighter leading-tight">
+          Recent Posts
         </h2>
           {morePosts.length > 0 && <MoreStories posts={morePosts} />}
         </Container>

@@ -26,11 +26,10 @@ export default function Index({ allPosts }) {
           <title>Jeremy Kaiser</title>
         </Head>
         <Container>
-       
-            <h2 className="text-2xl md:text-4xl font-bold tracking-tight md:tracking-tighter leading-tight mb-20 mt-8">
-              Jeremy Kaiser
-            </h2>
-      
+            <h1 className="text-7xl font-bold tracking-tight md:tracking-tighter leading-none mb-4 mt-8">
+              Hello, <p>I'm <span className="text-indigo-500">Jeremy Kaiser</span></p>
+            </h1>
+            <p>Just a simple software developer</p>
         </Container>
       </Layout>
     </>
