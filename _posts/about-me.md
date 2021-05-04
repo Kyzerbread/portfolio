@@ -1,10 +1,10 @@
 ---
 title: 'About Me'
-excerpt: 'Where to begin, I am a (mostly) self taught software developer born and raised in the '
+excerpt: 'Who is this man and why should I care?'
 coverImage: '/assets/blog/preview/cover.jpg'
 date: '2020-04-10T05:35:07.322Z'
 author:
-  name: Joe Haddad
+  name: Jeremy Kaiser
   picture: '/assets/blog/authors/joe.jpeg'
 ogImage:
   url: '/assets/blog/preview/cover.jpg'

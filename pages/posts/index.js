@@ -12,12 +12,12 @@ export default function Index({ allPosts }) {
     <>
       <Layout>
         <Head>
-          <title>Blogs</title>
+          <title>Posts</title>
         </Head>
         <Container>
-        <h2 className="mb-8 text-4xl md:text-7xl font-bold tracking-tighter leading-tight">
-          Recent Posts
-        </h2>
+          <h1 className="text-7xl font-bold tracking-tight md:tracking-tighter leading-none mb-24 mt-8">
+           📓 Posts
+          </h1>
           {morePosts.length > 0 && <MoreStories posts={morePosts} />}
         </Container>
       </Layout>
