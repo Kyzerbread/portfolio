@@ -28,7 +28,7 @@ export default function Index({ allPosts }) {
           <title>Jeremy Kaiser</title>
         </Head>
         <Container>
-          <h1 className="text-7xl font-bold tracking-tight md:tracking-tighter leading-none mb-4 mt-8">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight md:tracking-tighter leading-none mb-4 mt-8">
             Hello! 👋<p>I'm <span className="text-indigo-500">Jeremy Kaiser</span></p>
           </h1>
           <p className="text-xl mb-24">I design and develop applications because I think software is pretty f$*%!ng cool. 😎</p>
@@ -47,7 +47,7 @@ export default function Index({ allPosts }) {
             })}
           </div>
 
-          <p className="text-xl mt-4">Hungry for more? You can check out all my blogs <a href="/posts" className="text-blue-500 hover:text-blue-700">here</a>.</p>
+          <p className="text-xl mt-4 mb-4">Hungry for more? You can check out all my blogs <a href="/posts" className="text-blue-500 hover:text-blue-700">here</a>.</p>
         </Container>
       </Layout>
     </>

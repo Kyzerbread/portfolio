@@ -1,7 +1,6 @@
 ---
 title: 'About Me'
 excerpt: 'Who is this man and why should I care?'
-coverImage: '/assets/blog/preview/cover.jpg'
 date: '2020-04-10T05:35:07.322Z'
 author:
   name: Jeremy Kaiser
@@ -10,7 +9,9 @@ ogImage:
   url: '/assets/blog/preview/cover.jpg'
 ---
 
-Lorem EYYY dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
+In the early 200s when I was young, my father would sometimes spend his spare time playing video games outside my bedroom. I used to sneak out of at night to watch him play old source games such as Counter Strike, Half-Life, and Day of Defeat. The 3D graphics, gameplay, sounds, and multiplayer capabilities were mezmerizing. From those moments on I was obsessed with computers and what they could be used for. Around that time Windows XP had been released so naturally my father upgraded to the newest model and had decided to gift his Windows 95 PC, to me. This was my first ever PC at 6 years old!
+
+Fast forward into my teens, I was spending a large portion of my time on my computers playing games, browsing youtube, connecting on facebook, essentially watching the internet develop and grow into this revolutionary technology. This is about the time I learned that websites and video games were being programmed and developed by people with 
 
 Venenatis cras sed felis eget velit. Consectetur libero id faucibus nisl tincidunt. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Volutpat consequat mauris nunc congue nisi vitae. Id aliquet risus feugiat in ante metus dictum at tempor. Sed blandit libero volutpat sed cras. Sed odio morbi quis commodo odio aenean sed adipiscing. Velit euismod in pellentesque massa placerat. Mi bibendum neque egestas congue quisque egestas diam in arcu. Nisi lacus sed viverra tellus in. Nibh cras pulvinar mattis nunc sed. Luctus accumsan tortor posuere ac ut consequat semper viverra. Fringilla ut morbi tincidunt augue interdum velit euismod.
 
