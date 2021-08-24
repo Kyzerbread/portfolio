@@ -11,6 +11,34 @@
   border-left: 2px solid black;
 }
 
+.spacer {
+  aspect-ratio: 960/100;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.header-svg {
+  background-image: url("../public/assets/header.svg");
+}
+
+.footer-svg {
+  background-image: url("../public/assets/footer.svg");
+}
+
+.waves-1-svg {
+  background-image: url("../public/assets/wave-1.svg");
+}
+
+.layered-waves-1-svg {
+  background-image: url("../public/assets/layered-waves-1.svg");
+}
+
+.blog-header-svg {
+  background-image: url("../public/assets/blog-header.svg");
+}
+
 /* Start purging... */
 @tailwind utilities;
 /* Stop purging. */
