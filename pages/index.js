@@ -48,7 +48,7 @@ export default function Index({ allPosts }) {
           </Container>
         </Section>
         <div className="spacer header-svg"></div>
-        <Section backgroundColor="#f57c00">
+        <Section backgroundColor="#67daff">
           <Container>
             <p className="text-xl mb-4">📓 Recent Blog Posts:</p>
             <div className="flex flex-col ...">
