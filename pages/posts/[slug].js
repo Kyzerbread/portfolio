@@ -19,7 +19,7 @@ export default function Post({ post, morePosts, preview }) {
   }
   return (
     <Layout preview={preview}>
-      <Section backgroundColor="#67daff">
+      <Section backgroundColor="#f57c00">
         <Container>
           <Header />
         </Container>
