@@ -33,24 +33,25 @@ export default function Index({ allPosts }) {
         <Head>
           <title>Jeremy Kaiser</title>
         </Head>
-        <Section>
+        <Section backgroundColor="#263238">
           <Container>
-            <h1 className="text-white text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight md:tracking-tighter leading-none mb-4">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight md:tracking-tighter leading-none mb-4 text-white">
               Hello! 👋
               <p>
-                I'm <span className="text-orange-300">Jeremy Kaiser</span>
+                I'm <span className="text-green-500">Jeremy Kaiser</span>
               </p>
             </h1>
-            <p className="text-xl text-white ">
-              I design and develop applications because I think software is
-              pretty f$*%!ng cool. 😎
+            <p className="text-xl text-white">
+              <strong>
+                I design and develop applications because I think software is
+                pretty f$*%!ng cool. 😎
+              </strong>
             </p>
           </Container>
         </Section>
-        <div className="spacer header-svg"></div>
-        <Section backgroundColor="#f57c00">
+        <Section>
           <Container>
-            <p className="text-xl mb-4">📓 Recent Blog Posts:</p>
+            <p className="text-4xl mb-4">📓 Recent Blog Posts:</p>
             <div className="flex flex-col ...">
               {mostRecentPosts.map((post, index) => {
                 let date = new Date(post.date);

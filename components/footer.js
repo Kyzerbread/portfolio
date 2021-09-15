@@ -10,10 +10,10 @@ const linkStyle = {
 
 export default function Footer() {
   const getAge = () => {
-    var today = new Date();
-    var birthDate = new Date("May 09, 1995 11:13:00");
-    var age = today.getFullYear() - birthDate.getFullYear();
-    var m = today.getMonth() - birthDate.getMonth();
+    const today = new Date();
+    const birthDate = new Date("May 09, 1995 11:13:00");
+    const age = today.getFullYear() - birthDate.getFullYear();
+    const m = today.getMonth() - birthDate.getMonth();
     if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
       age--;
     }
@@ -27,22 +27,21 @@ export default function Footer() {
 
   return (
     <>
-      <div className="spacer footer-svg"></div>
-      <Section>
+      <Section backgroundColor="#263238">
         <Container>
-          <p className="text-lg mb-1 text-white">About Jeremy</p>
-          <p className="text-md text-white">💼 Full-time software developer</p>
-          <p className="text-md text-white">👦🏻 {getAge()} years old</p>
-          <p className="text-md mb-4 text-white">🌎 Calgary, Alberta 🇨🇦</p>
+          <p className="text-lg mb-1 ">About Jeremy</p>
+          <p className="text-md ">💼 Full-time software developer</p>
+          <p className="text-md ">👦🏻 {getAge()} years old</p>
+          <p className="text-md mb-4 ">🌎 Calgary, Alberta 🇨🇦</p>
           <button
             onClick={handleGithub}
-            className="bg-pink-500 hover:bg-pink-700 text-white py-1 px-2 rounded mr-2"
+            className="bg-pink-500 hover:bg-pink-700 py-1 px-2 rounded mr-2"
           >
             Github
           </button>
           <button
             onClick={handleLinkedIn}
-            className="bg-pink-500 hover:bg-pink-700 text-white py-1 px-2 rounded"
+            className="bg-pink-500 hover:bg-pink-700 py-1 px-2 rounded"
           >
             LinkedIn
           </button>

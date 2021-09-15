@@ -24,7 +24,7 @@ export default function Post({ post, morePosts, preview }) {
           <Header />
         </Container>
       </Section>
-      <div className="spacer blog-header-svg"></div>
+      {/* <div className="spacer blog-header-svg"></div> */}
       <Section>
         <Container>
           {router.isFallback ? (
@@ -46,7 +46,7 @@ export default function Post({ post, morePosts, preview }) {
           )}
         </Container>
       </Section>
-      <div className="spacer header-svg"></div>
+      {/* <div className="spacer header-svg"></div> */}
     </Layout>
   );
 }
