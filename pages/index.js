@@ -51,30 +51,40 @@ export default function Index({ allPosts }) {
         </Section>
         <Section>
           <Container>
-            <p className="text-4xl mb-4">📓 Recent Blog Posts:</p>
-            <div className="flex flex-col ...">
-              {mostRecentPosts.map((post, index) => {
-                let date = new Date(post.date);
-                return (
-                  <div className="ml-2 mb-8 pl-4 post max-w-xl" key={index}>
-                    <p className="text-lg font-bold">
-                      <a href={`/posts/${post.slug}`}>{post.title}</a>
-                    </p>
-                    <p className="text-lg mb-2">{post.excerpt}</p>
-                    <p className="text-xs ">
-                      {date.toLocaleDateString("en-US", options)}
-                    </p>
-                  </div>
-                );
-              })}
+            <div className="grid md:grid-flow-col ...">
+              <div>
+                <p className="text-3xl mb-4">Skills and Work</p>
+              </div>
+              <div>
+                <p className="text-3xl mb-4">📓 Recent Blog Posts:</p>
+                <div className="flex flex-col ...">
+                  {mostRecentPosts.map((post, index) => {
+                    let date = new Date(post.date);
+                    return (
+                      <div className="ml-2 mb-8 pl-4 post max-w-xl" key={index}>
+                        <p className="text-lg font-bold">
+                          <a href={`/posts/${post.slug}`}>{post.title}</a>
+                        </p>
+                        <p className="text-lg mb-2">{post.excerpt}</p>
+                        <p className="text-xs ">
+                          {date.toLocaleDateString("en-US", options)}
+                        </p>
+                      </div>
+                    );
+                  })}
+                </div>
+                <p className="text-xl mt-4 mb-4">
+                  Hungry for more? You can check out all my blogs{" "}
+                  <a
+                    href="/posts"
+                    className="text-pink-500 hover:text-pink-700"
+                  >
+                    here
+                  </a>
+                  .
+                </p>
+              </div>
             </div>
-            <p className="text-xl mt-4 mb-4">
-              Hungry for more? You can check out all my blogs{" "}
-              <a href="/posts" className="text-pink-500 hover:text-pink-700">
-                here
-              </a>
-              .
-            </p>
           </Container>
         </Section>
       </Layout>

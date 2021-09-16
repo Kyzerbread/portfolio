@@ -1,18 +1,26 @@
 ---
-title: 'About Me'
-excerpt: 'Who is this man and why should I care?'
-date: '2020-04-10T05:35:07.322Z'
+title: "About me (Jeremy)"
+excerpt: "Who is this man and why should I care?"
+date: "2020-09-10T05:35:07.322Z"
 author:
   name: Jeremy Kaiser
-  picture: '/assets/blog/authors/joe.jpeg'
+  picture: "/assets/blog/authors/joe.jpeg"
 ogImage:
-  url: '/assets/blog/preview/cover.jpg'
+  url: "/assets/blog/preview/cover.jpg"
 ---
 
-In the early 2000s when I was young, my dad would spend his spare time playing video games outside my bedroom. I used to sneak out at night to watch him play old source games such as Counter Strike, Half-Life, and Day of Defeat. The 3D graphics, gameplay, sounds, and multiplayer capabilities were mezmerizing. After a while he ended up upgrading his PC and gifted me his old one to play around with. Fast forward into my teens, I spent my time playing around online watching youtube, 
+Firstly I want to preface that I know my weakness is writing. There is a reason language arts was my worst school subject by a landslide. This and all my other writings will appear like I hired an elementary student to generate them, but I consider it acceptable since my job is writing code for computers, not literature for humans.
 
-Venenatis cras sed felis eget velit. Consectetur libero id faucibus nisl tincidunt. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Volutpat consequat mauris nunc congue nisi vitae. Id aliquet risus feugiat in ante metus dictum at tempor. Sed blandit libero volutpat sed cras. Sed odio morbi quis commodo odio aenean sed adipiscing. Velit euismod in pellentesque massa placerat. Mi bibendum neque egestas congue quisque egestas diam in arcu. Nisi lacus sed viverra tellus in. Nibh cras pulvinar mattis nunc sed. Luctus accumsan tortor posuere ac ut consequat semper viverra. Fringilla ut morbi tincidunt augue interdum velit euismod.
+## The Beginning
 
-## Lorem Ipsum
+Similar to many programmers, my initial fascination with computers was ignited through video games. I recieved my first PC as a hand me down from my father which was a Windows 95 desktop loaded with the video game reader rabbit. Throughout my childhood and teenage years I spent plenty of time (definitely too much) on various PCs, learning how to use them, fixing them (aka removing the viruses I put on them from downloading Crank_That_Souldja_Boy.exe on LimeWire), and building them. Come high school graduation it was a given that I would do something in the Computer Science field.
 
-Tristique senectus et netus et malesuada fames ac turpis. Ridiculous mus mauris vitae ultricies leo integer malesuada nunc vel. In mollis nunc sed id semper. Egestas tellus rutrum tellus pellentesque. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Eros donec ac odio tempor orci dapibus ultrices. Aliquam sem et tortor consequat id porta nibh. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla. Diam vulputate ut pharetra sit amet. Ut tellus elementum sagittis vitae et leo. Arcu non odio euismod lacinia at quis risus sed vulputate.
+## Early Programmer
+
+I Started my journey starting with 2 years at Mount Royal University in the CPSC transfer program and then continuing at the University of Calgary. During my classes I would often drift off on the internet working and tinkering with ideas I envisioned about certain apps or software I wanted to create. Academics were never my strongsuit, but building things was. Throughout school there were a few small websites I worked on here and there for clients.
+
+During my 3rd year I landed an internship at a small company that dealt with software for bottle depots. This was my first taste of programming applications that were being used in the real world. It was euphoric. I was instantly hooked and there was a strong feeling of accomplishment and importance I recieved when creating something useful. A year into working I got the opportunity to get in on a startup idea
+
+## Today
+
+Fast forward into Septemper 2021, I have now been working in this industry for over 4 years and while I'm still early in my career, have learned a great deal about programming and myself.

@@ -28,20 +28,20 @@ export default function Footer() {
   return (
     <>
       <Section backgroundColor="#263238">
-        <Container>
-          <p className="text-lg mb-1 ">About Jeremy</p>
-          <p className="text-md ">💼 Full-time software developer</p>
-          <p className="text-md ">👦🏻 {getAge()} years old</p>
-          <p className="text-md mb-4 ">🌎 Calgary, Alberta 🇨🇦</p>
+        <Container className="text-white">
+          <p className="text-lg mb-1 text-white">About Jeremy</p>
+          <p className="text-md text-white">💼 Full-time software developer</p>
+          <p className="text-md text-white">👦🏻 {getAge()} years old</p>
+          <p className="text-md mb-4 text-white">🌎 Calgary, Alberta 🇨🇦</p>
           <button
             onClick={handleGithub}
-            className="bg-pink-500 hover:bg-pink-700 py-1 px-2 rounded mr-2"
+            className="bg-pink-500 hover:bg-pink-700 py-1 px-2 rounded mr-2 text-white"
           >
             Github
           </button>
           <button
             onClick={handleLinkedIn}
-            className="bg-pink-500 hover:bg-pink-700 py-1 px-2 rounded"
+            className="bg-pink-500 hover:bg-pink-700 py-1 px-2 rounded text-white"
           >
             LinkedIn
           </button>
