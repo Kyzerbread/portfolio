@@ -1,26 +1,34 @@
+<script>
+	// // get days since May 2017
+	// let timeBeingDeveloper = Math.floor((Date.now() - new Date('2017-05-01')) / 1000 / 60 / 60 / 24);
+	// setInterval(() => {
+	// 	timeBeingDeveloper += 1000;
+	// }, 1000);
+</script>
+
 <svelte:head>
 	<title>About</title>
 	<meta name="description" content="About this app" />
 </svelte:head>
 
 <div class="text-column">
-	<h1>About this app</h1>
+	<h1>More about me</h1>
 
 	<p>
-		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
-		following into your command line and following the prompts:
+		Developer since May 2017 after attending both Mount Royal and the University of Calgary. Since
+		then, my journey has taken me through a variety of different jobs and roles.
 	</p>
 
-	<pre>npm create svelte@latest</pre>
+	<ul>
+		<li>
+			🏢
+			<a aria-label="Work link" href="https://stackdx.com" target="_blank"
+				>Stack Technologies Ltd.</a
+			>
+		</li>
+		<li>📍Calgary, Alberta</li>
+		<li>🍁Canadian born and raised</li>
+	</ul>
 
-	<p>
-		The page you're looking at is purely static HTML, with no client-side interactivity needed.
-		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading.
-	</p>
-
-	<p>
-		The <a href="/sverdle">Sverdle</a> page illustrates SvelteKit's data loading and form handling. Try
-		using it with JavaScript disabled!
-	</p>
+	<p />
 </div>
