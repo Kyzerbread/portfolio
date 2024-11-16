@@ -6,8 +6,8 @@
 	import { webVitals } from '$lib/vitals';
 	import Header from './Header.svelte';
 	import './styles.css';
+	import '../app.css';
 
-	
 	/** @type {{data: import('./$types').LayoutServerData, children?: import('svelte').Snippet}} */
 	let { data, children } = $props();
 
