@@ -30,5 +30,5 @@
 		<li>🍁Canadian born and raised</li>
 	</ul>
 
-	<p />
+	<p></p>
 </div>

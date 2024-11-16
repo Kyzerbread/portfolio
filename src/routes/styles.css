@@ -1,22 +1,29 @@
 @import '@fontsource/fira-mono';
 
 :root {
-	/* https://coolors.co/faa916-566e3d-0c4767-eef0f2-8ac6d0 */
-	--orange-web: #faa916ff;
-	--fern-green: #566e3dff;
-	--indigo-dye: #0c4767ff;
-	--antiflash-white: #eef0f2ff;
-	--non-photo-blue: #8ac6d0ff;
-	--font-body: 'Open Sans', sans-serif;
+	/* https://coolors.co/12130f-eee82c-aaaaaa-fb3640-14248a */
+	--smoky-black: #0b0a07ff;
+	--aureolin: #f9e900ff;
+	--majorelle-blue: #623ceaff;
+	--snow: #fcf7f8ff;
+	--grey-snow: rgb(153, 153, 153);
+	
+	--light-sea-green: #17c3b2ff;
+
+	--font-body: 'Montserrat', sans-serif;
 	--font-mono: 'Fira Mono', monospace;
 	--color-bg-0: rgb(202, 216, 228);
 	--color-bg-1: hsl(209, 36%, 86%);
 	--color-bg-2: hsl(224, 44%, 95%);
 	--color-primary: #ff3e00;
 	--color-secondary: #4075a6;
-	--color-text: rgba(0, 0, 0, 0.7);
+	--color-text: var(--snow);
+	--color-text-secondary: var(--grey-snow);
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
+
+	--divider-color: var(--grey-snow);
+
 	font-family: var(--font-body);
 	color: var(--color-text);
 }
@@ -24,7 +31,7 @@
 body {
 	min-height: 100vh;
 	margin: 0;
-	background-color: var(--antiflash-white);
+	background-color: var(--smoky-black);
 }
 
 h1,
@@ -38,7 +45,7 @@ p {
 }
 
 a {
-	color: var(--non-photo-blue);
+	color: var(--citron);
 	text-decoration: none;
 }
 

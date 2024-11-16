@@ -4,9 +4,21 @@
 </svelte:head>
 
 <div class="text-column">
-	<h1>Blogy blog</h1>
+	<div class="brainy-brain">🧠</div>
+	<h1>Thoughts I've Thinked</h1>
 
-	<p>
-		This is a blog about blogs. It's a blog blog.
-	</p>
+	<p>I'm not much of a writer, but I find it cathartic to convert my thoughts into words.</p>
+
+	<section>
+		<p>
+			<a href="/blog/my-ux-journey-so-far">UX Journey (so far)</a>
+		</p>
+	</section>
 </div>
+
+<style>
+	.brainy-brain {
+		font-size: 2rem;
+		text-align: center;
+	}
+</style>

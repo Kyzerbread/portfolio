@@ -1,36 +1,20 @@
-# SvelteKit Demo app
+# Welcome
 
-The official demo app for SvelteKit, hosted on Vercel.
+If you're reading this, you're probably here to judge my code. I hope you enjoy it!
 
-## Deploy Your Own
+Unless you are that one Alex (you know who you are), in which case, get out of here.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fvercel%2Ftree%2Fmain%2Fexamples%2Fsveltekit-1&project-name=sveltekit-vercel&repository-name=sveltekit-vercel&demo-title=SvelteKit%20%2B%20Vercel&demo-url=https%3A%2F%2Fsveltekit-template.vercel.app%2F)
+## What is this?
 
-_Live Example: https://sveltekit-template.vercel.app_
+It's a portfolio site made with Svelte + SvelteKit.
 
-## Developing
+There is no other real dependencies, other than the ones that come with Svelte.
+Feel free to look around, this code was all hand written and maintained by me.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+### Why Svelte?
 
-```bash
-npm run dev
+No real reason other than I wanted to try it out.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+### How do I run it?
 
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-## Speed Insights
-
-Once deployed on Vercel, you can benefit from [Speed Insights](https://vercel.com/docs/concepts/speed-insights) simply by navigating to Vercel's dashboard, clicking on the 'Speed Insights' tab, and enabling the product.
-
-You will get data once your application will be re-deployed and will receive visitors.
+I don't know why you would want to, but if you do, you can run it with `npm run dev`.

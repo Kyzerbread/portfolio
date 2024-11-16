@@ -26,10 +26,11 @@
 
 	nav {
 		display: flex;
-		justify-content: center;
+		border-bottom: 1px solid var(--divider-color);
+		width: 100%;
 	}
 
-	svg {
+	/* svg {
 		width: 2em;
 		height: 3em;
 		display: block;
@@ -37,7 +38,7 @@
 
 	path {
 		fill: var(--background);
-	}
+	} */
 
 	ul {
 		position: relative;
@@ -48,7 +49,7 @@
 		justify-content: center;
 		align-items: center;
 		list-style: none;
-		background: var(--background);
+		/* background: var(--background); */
 		background-size: contain;
 	}
 
@@ -80,7 +81,7 @@
 		height: 100%;
 		align-items: center;
 		padding: 0 0.5rem;
-		color: var(--color-text);
+		color: var(--color-text-secondary);
 		font-weight: 700;
 		font-size: 0.8rem;
 		text-transform: uppercase;
@@ -90,6 +91,6 @@
 	}
 
 	a:hover {
-		color: var(--color-theme-1);
+		color: var(--color-text);
 	}
 </style>
